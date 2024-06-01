@@ -1,3 +1,6 @@
+import java.beans.Expression;
+import java.rmi.server.Operation;
+
 public class Multiplication extends Operation{
 
     public Multiplication(Expression operande1,Expression operande2){
@@ -9,6 +12,6 @@ public class Multiplication extends Operation{
     }
 
     public String toString(){
-        return "Calcul d'un produit : " + getOperande1().valeur() + " * " + getOperande2().valeur();
+        return "(" + getOperande1() + " * " + getOperande2() + ")"; // On retire le ".valeur()" puisque maintenant les opérandes sont des Expressions (qui peuvent être des Nombres ou d'autres Opérations)
     }
 }
