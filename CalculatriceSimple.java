@@ -1,5 +1,7 @@
 public class CalculatriceSimple {
 
+    // Test sur git
+
     public static void main(String[] args) {
         
         Nombre six = new Nombre(6) ;
