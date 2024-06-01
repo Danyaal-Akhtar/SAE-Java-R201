@@ -6,6 +6,8 @@ Ce projet vise à développer une calculatrice en Java capable de réaliser des 
 - **Partie II** : Réalisation d'opérations complexes en appliquant des concepts de récursivité, avec une extension de la modélisation UML.
 
 
+
+
 ### Contributeurs pour la réalisation de cette SAE :
 - Danyaal Akhtar
 - Amine Ouarrou
