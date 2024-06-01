@@ -1,14 +1,14 @@
 public class Multiplication extends Operation{
 
-    public Multiplication(Nombre operande1,Nombre operande2){
+    public Multiplication(Expression operande1, Expression operande2){
         super(operande1, operande2);
     }
 
-    public int valeur(){
+    public double  valeur(){
         return getOperande1().valeur()*getOperande2().valeur();
     }
 
     public String toString(){
-        return "Calcul d'un produit : " + getOperande1().valeur() + " * " + getOperande2().valeur();
+        return "(" + getOperande1() + " * " + getOperande2()+ ")";
     }
 }
