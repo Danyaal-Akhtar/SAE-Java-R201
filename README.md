@@ -7,5 +7,5 @@ Ce projet vise à développer une calculatrice en Java capable de réaliser des 
 
 
 ### Contributeurs pour la réalisation de cette SAE :
-- Danyaal AKHTAR
+- Danyaal Akhtar
 - Amine Ouarrou
