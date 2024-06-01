@@ -1,3 +1,6 @@
+import java.beans.Expression;
+import java.rmi.server.Operation;
+
 public class Soustraction extends Operation{
 
         public Soustraction(Expression operande1,Expression operande2){
@@ -9,6 +12,6 @@ public class Soustraction extends Operation{
         }
 
         public String toString(){
-            return "Calcul d'une différence : " + getOperande1().valeur() + " - " + getOperande2().valeur();
+            return "(" + getOperande1() + " - " + getOperande2() + ")"; // On retire le ".valeur()" puisque maintenant les opérandes sont des Expressions (qui peuvent être des Nombres ou d'autres Opérations)
         }
 }

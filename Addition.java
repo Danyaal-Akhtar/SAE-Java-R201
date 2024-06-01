@@ -1,3 +1,6 @@
+import java.beans.Expression;
+import java.rmi.server.Operation;
+
 public class Addition extends Operation{
 
     public Addition(Expression operande1, Expression operande2){
@@ -10,7 +13,7 @@ public class Addition extends Operation{
     }
     
     public String toString(){
-        return "Calcul d'une somme :  " + getOperande1().valeur() + " + " + getOperande2().valeur();
+        return "(" + getOperande1() + " + " + getOperande2() + ")"; // On retire le ".valeur()" puisque maintenant les opérandes sont des Expressions (qui peuvent être des Nombres ou d'autres Opérations)
     }
 
 }
