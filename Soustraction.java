@@ -9,6 +9,6 @@ public class Soustraction extends Operation{
         }
 
         public String toString(){
-            return "(" + getOperande1() + " - " + getOperande2() + ")";
+            return "Calcul d'une différence : " + getOperande1().valeur() + " - " + getOperande2().valeur();
         }
 }

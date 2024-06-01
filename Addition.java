@@ -10,7 +10,7 @@ public class Addition extends Operation{
     }
     
     public String toString(){
-        return "(" + getOperande1() + " + " + getOperande2() + ")";
+        return "Calcul d'une somme :  " + getOperande1().valeur() + " + " + getOperande2().valeur();
     }
 
 }
