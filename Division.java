@@ -1,6 +1,6 @@
 public class Division extends Operation{
     
-    public Division(Nombre operande1,Nombre operande2){
+    public Division(Expression operande1,Expression operande2){
         super(operande1, operande2);
     }
 
