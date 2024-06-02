@@ -1,4 +1,4 @@
-public class Nombre{
+public class Nombre extends Expression{
     
     private int valeurNombre;
 
@@ -7,7 +7,7 @@ public class Nombre{
         this.valeurNombre = valeurNombre;
     }
 
-    public int valeur(){
+    public double valeur(){
         return valeurNombre;
     }
 
